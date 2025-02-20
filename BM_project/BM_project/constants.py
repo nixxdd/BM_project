@@ -22,7 +22,7 @@ I_NEURON_TAU_SYN_IN = 10.0
 
 # Thalamic Input Parameters
 THALAMIC_INPUT_FIRING_RATE = 350.0
-THALAMIC_INPUT_WEIGHT = 15
+THALAMIC_INPUT_WEIGHT = 100
 THALAMIC_INPUT_DELAY = 1.0
 
 # Population Parameters
@@ -32,7 +32,7 @@ POP_SIZE_I = 15
 # Synapses Parameters
 DELAY_CONNECTION = 1.0
 G = 1.3
-EXC_WEIGHT = 4.59
+EXC_WEIGHT = 1000
 INH_WEIGHT = -G * EXC_WEIGHT
 
 # Distribution of synaptic connections parameters
