@@ -1,5 +1,9 @@
 """Parameters for balanced network"""
 
+# Simulation Parameters
+STEPS = 20
+STEPS_DURATION = 100.0
+
 # Excitatory Neuron Parameters
 E_NEURON_E_L = -65.0
 E_NEURON_C_M = 250.0
@@ -29,6 +33,17 @@ READOUT_NEURON_C_M = 250.0
 READOUT_NEURON_TAU_M = 20.0
 READOUT_NEURON_V_TH = -50.0
 READOUT_NEURON_V_RESET = -65.0
+
+# DC Input Parameters
+DC_INPUT_AMPLITUDE = 300.0
+
+DC_INPUT_START_1 = 200.0
+DC_INPUT_STOP_1 = 500.0
+DC_INPUT_START_2 = 1200.0
+DC_INPUT_STOP_2 = 1500.0
+
+DC_INPUT_WEIGHT = 1.5
+DC_INPUT_DELAY = 1.0
 
 
 # Thalamic Input Parameters
