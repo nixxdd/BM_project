@@ -3,6 +3,7 @@
 # Simulation Parameters
 STEPS = 20
 STEPS_DURATION = 100.0
+SIM_TIME = 2000.0
 
 # Excitatory Neuron Parameters
 E_NEURON_E_L = -65.0
@@ -30,6 +31,7 @@ INH_BACKGROUND = 100.0
 # DC Input Parameters
 DC_INPUT_AMPLITUDE = 300.0
 
+DC_INPUT_AMPLITUDE_SIM = 100.0
 DC_INPUT_START_1 = 200.0
 DC_INPUT_STOP_1 = 500.0
 DC_INPUT_START_2 = 1200.0
