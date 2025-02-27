@@ -40,6 +40,9 @@ Tracking **u** (utilization) and **x** (available resources) over time highlight
 ### 3. Input-Response Relationship
 Comparisons of firing rates as a function of thalamic input provide insight into network adaptation and stability.
 
+### 4. Interactive Plots using Plotly
+Comparison of the firing rates of the networks with and without pruning giving two constant DC currents as input.
+
 ## Future Improvements
 - Implement additional pruning strategies (e.g., activity-based pruning).
 - Explore network plasticity and long-term stability.
